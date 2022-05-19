@@ -1,23 +1,31 @@
-div {
+body {
   padding: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+
+div {
   border: 2px solid black;
 }
 
 .blue {
+  padding: 50px;
+
   background-color: blue;
 }
 .yellow {
+  padding: 50px;
+
   background-color: yellow;
 }
 .green {
+  padding: 50px;
+
   background-color: green;
 }
 .pink {
+  padding: 50px;
+
   background-color: pink;
-}
-body {
-  margin: 50px;
-}
-* {
-  box-sizing: border-box;
 }
