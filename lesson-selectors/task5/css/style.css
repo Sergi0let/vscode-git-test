@@ -12,7 +12,7 @@ a[target='_blank'] {
 a[href$='.com'] {
   margin-left: 50px;
 }
-[lang|='en'] {
+a[lang|='en'] {
   font-size: 10px;
 }
 a[href*='www'] {
