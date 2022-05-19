@@ -1,12 +1,9 @@
 * {
   box-sizing: border-box;
 }
-body {
-  padding: 25px;
-}
+
 div {
-  margin: 25px;
-  padding: 25px;
+  margin: 50px;
   border: 2px solid black;
 }
 
@@ -20,5 +17,6 @@ div {
   background-color: green;
 }
 .pink {
+  padding: 50px;
   background-color: pink;
 }
