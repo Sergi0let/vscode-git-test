@@ -6,18 +6,11 @@
   height: 100px;
 }
 
-section {
-  background: aquamarine;
-  padding: 16px;
-}
-
 .container {
   float: left;
   width: 50%;
-}
-footer {
-  height: 30px;
-  border: 2px solid black;
+  background: aquamarine;
+  padding: 16px;
 }
 
 .red {
@@ -31,5 +24,7 @@ footer {
 }
 
 .footer {
+  height: 30px;
+  border: 2px solid black;
   clear: both;
 }
