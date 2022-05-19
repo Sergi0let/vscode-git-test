@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 50px 50px 0 50px;
 }
 * {
   box-sizing: border-box;
@@ -26,6 +26,5 @@ div {
 }
 .pink {
   padding: 50px;
-
   background-color: pink;
 }
