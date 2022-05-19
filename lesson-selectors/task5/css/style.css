@@ -1,4 +1,4 @@
-a[href^='broken'] {
+a[href~='broken'] {
   border: 2px solid red;
 }
 
