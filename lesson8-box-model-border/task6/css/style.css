@@ -2,28 +2,21 @@
   box-sizing: border-box;
 }
 
-div > div {
+div {
+  margin: 25px;
+  padding: 25px;
   border: 2px solid black;
 }
-.white {
-  padding: 50px;
-}
-.blue {
-  padding: 50px;
 
+.blue {
   background-color: blue;
 }
 .yellow {
-  padding: 50px;
-
   background-color: yellow;
 }
 .green {
-  padding: 50px;
-
   background-color: green;
 }
 .pink {
-  padding: 50px;
   background-color: pink;
 }
