@@ -1,5 +1,4 @@
 div {
-  margin: 50px;
   padding: 50px;
   border: 2px solid black;
 }
@@ -15,4 +14,10 @@ div {
 }
 .pink {
   background-color: pink;
+}
+body {
+  padding: 50px;
+}
+* {
+  box-sizing: border-box;
 }
