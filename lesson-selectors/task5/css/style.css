@@ -19,5 +19,4 @@ a[href*='www'] {
 }
 a[title~='popular'] {
   font-size: 24px;
-
-
+}
