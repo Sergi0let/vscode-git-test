@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  padding: 25px;
+}
 div {
   margin: 25px;
   padding: 25px;
