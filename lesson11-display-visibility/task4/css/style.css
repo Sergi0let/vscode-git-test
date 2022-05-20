@@ -22,7 +22,7 @@
   opacity: 1;
 }
 .menu-list {
-  display: block;
+  display: none;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
