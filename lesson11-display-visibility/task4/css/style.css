@@ -35,7 +35,6 @@
 .menu-item {
   list-style-type: none;
   padding: 16px;
-  line-height: 16px;
 }
 .menu-item:hover {
   background-color: ghostwhite;
