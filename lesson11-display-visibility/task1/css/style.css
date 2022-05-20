@@ -1,0 +1,9 @@
+.container__not {
+  display: none;
+}
+.container__hidden {
+  visibility: hidden;
+}
+.container__visible {
+  visibility: visible;
+}
