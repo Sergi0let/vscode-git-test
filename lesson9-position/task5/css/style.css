@@ -42,7 +42,7 @@ body {
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: calc(100% / 2);
+  top: 200px;
   left: calc(100% / 2);
 }
 .ear {
