@@ -3,13 +3,14 @@
 }
 
 .dropdown {
+  display: inline-block;
   margin: 16px;
 }
 .dropdown:hover .menu-list {
   display: block;
 }
 .menu-button {
-  display: inline-block;
+  display: block;
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
