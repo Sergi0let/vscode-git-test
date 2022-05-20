@@ -17,6 +17,7 @@ li {
 .header__list {
   display: flex;
   margin: 0;
+  padding-left: 16px;
 }
 .header__link {
   margin-right: 16px;
@@ -37,16 +38,19 @@ li {
 }
 .aside-main {
   flex-basis: 200px;
+  background-color: grey;
 }
 .aside-main__title {
   text-align: center;
   margin: 16px 0;
 }
 .aside-main__list {
+  padding: 0;
 }
 .aside-main__link {
   margin-left: 16px;
   line-height: 40px;
+  padding: 0;
 }
 
 .footer {
