@@ -22,7 +22,7 @@
   opacity: 1;
 }
 .menu-list {
-  display: none;
+  display: block;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
@@ -35,6 +35,7 @@
 .menu-item {
   list-style-type: none;
   padding: 16px;
+  line-height: 16px;
 }
 .menu-item:hover {
   background-color: ghostwhite;
