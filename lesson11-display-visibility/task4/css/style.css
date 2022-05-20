@@ -10,6 +10,9 @@
 .dropdown:hover .menu-list {
   display: block;
 }
+.dropdown:hover .menu-item:hover {
+  background-color: ghostwhite;
+}
 .menu-button {
   display: block;
   padding: 16px;
@@ -35,9 +38,6 @@
   position: absolute;
 }
 .menu-item {
-  padding: 16px;
+  margin: 16px;
   list-style-type: none;
 }
-/* .dropdown:hover .menu-item:hover {
-  background-color: ghostwhite;
-} */
