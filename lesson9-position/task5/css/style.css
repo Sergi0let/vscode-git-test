@@ -13,16 +13,23 @@ body {
   width: 100%;
   z-index: 2;
 }
+
+.navigation {
+}
 .nav-list {
-  line-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+
+  margin-top: 0;
 }
 .nav-item {
-  float: left;
   margin-left: 16px;
   color: white;
-
-  height: 40px;
+  float: left;
   list-style-type: none;
+  line-height: 40px;
 }
 
 .content {
