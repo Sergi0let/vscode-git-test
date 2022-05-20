@@ -19,12 +19,11 @@
   font-size: 16px;
   color: white;
   opacity: 0.8;
-  margin: 0;
 }
 .menu-list {
   display: none;
   position: absolute;
-  top: 48px;
+  top: 49px;
   left: 0;
 
   margin: 0;
