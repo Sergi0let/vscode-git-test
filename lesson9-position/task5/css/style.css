@@ -42,8 +42,8 @@ body {
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: 200px;
-  left: calc(100% / 2);
+  top: 150px;
+  margin: 0 auto;
 }
 .ear {
   width: 40px;
