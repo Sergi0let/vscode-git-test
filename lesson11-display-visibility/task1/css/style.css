@@ -6,7 +6,9 @@
 }
 .container__visible {
   visibility: visible;
+}
+.container div {
   width: 100px;
   height: 100px;
-  background-color: orange;
+  background-color: coral;
 }
