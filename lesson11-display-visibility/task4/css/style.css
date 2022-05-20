@@ -17,6 +17,9 @@
   color: white;
   cursor: pointer;
 }
+.menu-button:hover {
+  opacity: 1;
+}
 .menu-list {
   display: none;
   margin: 0;
