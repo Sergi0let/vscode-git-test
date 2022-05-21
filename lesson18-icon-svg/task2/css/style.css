@@ -12,11 +12,10 @@ button {
   font-weight: 700;
   line-height: 50px;
   text-align: center;
-  font-size: 18px;
 }
 
 button:hover {
-  background-color: darkcyan;
+  color: darkcyan;
 }
 
 .bird-icon {
