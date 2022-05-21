@@ -4,5 +4,5 @@
 body {
   background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/example.jpg');
   background-repeat: repeat;
-  background-clip: border-box;
+  background-clip: padding-box;
 }
