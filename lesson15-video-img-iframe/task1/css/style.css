@@ -5,13 +5,13 @@
 .image-container img {
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   max-width: 100%;
   display: block;
   border-radius: 20px;
 }
 
 .gallery {
-  margin-top: 16px;
   display: flex;
 }
 .card {
