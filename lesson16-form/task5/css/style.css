@@ -7,3 +7,6 @@ form {
 input {
   margin: 8px;
 }
+form {
+  margin: 0;
+}
