@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin: 16px;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table td {
+  width: 50px;
+  height: 50px;
+}
+
+tr:first-child td {
+  border-bottom: 1px solid black;
+}
+
+tr:first-child td:first-child {
+  border-bottom: none;
+}
+tr:first-child td:last-child {
+  border-bottom: none;
+}
+
+tr:nth-child(2) td:nth-child(odd) {
+  background-color: black;
+  border-right: 1px solid black;
+}
+tr:nth-child(2) td:first-child {
+  background: #fff;
+}
+tr:nth-child(3) td:nth-child(even) {
+  background-color: black;
+  border-left: 1px solid black;
+}
+tr:nth-child(3) td:last-child {
+  background: #fff;
+}
+
+tr:nth-child(4) td:nth-child(odd) {
+  background-color: black;
+  border-right: 1px solid black;
+}
+tr:nth-child(4) td:first-child {
+  background: #fff;
+  border-left: 1px solid black;
+}
+
+tr:nth-child(5) td:nth-child(even) {
+  background-color: black;
+  border-left: 1px solid black;
+}
+tr:nth-child(5) td:last-child {
+  background: #fff;
+  border-left: 1px solid black;
+}
+
+tr:nth-child(6) td:nth-child(odd) {
+  background-color: black;
+  border-right: 1px solid black;
+}
+tr:nth-child(6) td:first-child {
+  background: #fff;
+}
+
+tr:nth-child(7) td:nth-child(even) {
+  background-color: black;
+  border-left: 1px solid black;
+}
+tr:nth-child(7) td:last-child {
+  background: #fff;
+  border-left: 1px solid black;
+}
+
+tr:nth-child(8) td:nth-child(odd) {
+  background-color: black;
+  border-right: 1px solid black;
+}
+tr:nth-child(8) td:first-child {
+  background: #fff;
+}
+
+tr:nth-child(9) td:nth-child(even) {
+  background-color: black;
+}
+tr:nth-child(9) td:last-child {
+  background: #fff;
+  border-left: 1px solid black;
+}
+
+tr:nth-child(9) td {
+  border-bottom: 1px solid black;
+}
+tr:nth-child(9) td:first-child {
+  border-bottom: none;
+}
+tr:nth-child(9) td:last-child {
+  border-bottom: none;
+}
