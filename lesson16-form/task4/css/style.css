@@ -24,7 +24,7 @@ body {
 }
 .form-control {
   display: block;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .form-label {
   display: block;
