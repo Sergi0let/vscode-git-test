@@ -1,6 +1,5 @@
 .row {
   display: flex;
-  height: 100%;
 }
 .column {
   display: flex;
@@ -16,8 +15,4 @@
 .large-bird {
   width: 320px;
   width: 320px;
-}
-
-.column:last-child {
-  height: 357px;
 }
