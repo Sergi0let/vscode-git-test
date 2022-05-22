@@ -56,7 +56,7 @@ p {
 
 .section {
   padding: 0.5em;
-  /* flex: 1 1 60%; */
+
   width: 60%;
 
   font-size: 1.25em;
@@ -72,7 +72,7 @@ p {
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
-  /* font-size: 125%; */
+  font-size: 125%;
   font-weight: 700;
 }
 .news {
