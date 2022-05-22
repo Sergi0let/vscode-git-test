@@ -20,7 +20,7 @@ body {
   font-weight: 700;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   animation: jump 0.5s ease-in-out 0.4s, spin 0.5s ease-in-out,
-    right 1s ease forwards 2s;
+    hide 1s ease forwards 2s;
 }
 
 @keyframes jump {
@@ -44,7 +44,7 @@ body {
   }
 }
 
-@keyframes right {
+@keyframes hide {
   0% {
     transform: translateX(0);
   }
