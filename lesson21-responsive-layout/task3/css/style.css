@@ -56,11 +56,8 @@ p {
 
 .section {
   padding: 0.5em;
-
   width: 60%;
-
   font-size: 1.25em;
-  line-height: 1.75em;
 }
 .section__header {
   font-size: calc((100vw * 1.05) - 100vw);
@@ -68,6 +65,7 @@ p {
   text-align: center;
 }
 .units-list {
+  line-height: 1.75em;
 }
 .css-units {
   color: #8b0000;
