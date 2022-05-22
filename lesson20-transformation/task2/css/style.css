@@ -17,8 +17,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  animation: jump 0.4s ease-in-out 0.5s, spin 0.5s ease-in-out,
-    hide 1s ease 2s forwards;
+  /* animation: jump 0.4s ease-in-out 0.5s, spin 0.5s ease-in-out,
+    hide 1s ease 2s forwards; */
 }
 
 @keyframes jump {
