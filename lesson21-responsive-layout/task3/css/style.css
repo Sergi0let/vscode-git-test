@@ -26,7 +26,7 @@ body {
 }
 .navigation {
   flex: 1 0 20%;
-  max-width: 27%;
+  max-width: 115px;
 }
 .navigation,
 .section,
@@ -56,7 +56,7 @@ body {
   font-size: 1.25em;
 }
 .section__header {
-  font-size: 5vw;
+  font-size: 5vh;
   text-align: center;
 }
 .units-list li {
@@ -69,7 +69,7 @@ body {
   font-weight: 700;
 }
 .news {
-  flex: 0 0 20%;
+  flex: 0 0 22%;
 }
 .footer {
   background-color: #e5e5e5;
