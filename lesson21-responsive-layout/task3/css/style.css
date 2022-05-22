@@ -27,7 +27,8 @@ body {
   font-size: 1.25em;
 }
 .navigation {
-  flex: 0 0 20%;
+  flex: 1 0 20%;
+  max-width: 20%;
 }
 .navigation,
 .section,
@@ -42,15 +43,15 @@ body {
   line-height: 1.75em;
   margin-bottom: 0.5em;
   background-color: #808080;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .nav-list-link {
   line-height: 2em;
   color: #fff;
   text-decoration: none;
   padding: 0 0.5em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .section {
   flex: 1 0 60%;
