@@ -26,7 +26,7 @@ body {
 }
 .navigation {
   flex: 1 0 20%;
-  max-width: 40%;
+  max-width: 27%;
 }
 .navigation,
 .section,
@@ -60,7 +60,7 @@ body {
   text-align: center;
 }
 .units-list li {
-  margin-bottom: 0.5em;
+  line-height: 1.75em;
 }
 .css-units {
   color: #8b0000;
@@ -69,7 +69,7 @@ body {
   font-weight: 700;
 }
 .news {
-  flex: 0 1 20%;
+  flex: 0 0 20%;
 }
 .footer {
   background-color: #e5e5e5;
