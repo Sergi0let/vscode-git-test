@@ -27,7 +27,9 @@ body {
 .main {
   flex: 1 0 auto;
 }
-
+p {
+  margin: 0;
+}
 .navigation {
   padding: 0.5em;
   /* flex: 0 1 20%; */
@@ -62,6 +64,7 @@ body {
 }
 .section__header {
   font-size: calc((100vw * 1.05) - 100vw);
+  /* font-size: 5vw; */
   text-align: center;
 }
 .units-list {
