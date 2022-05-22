@@ -61,7 +61,8 @@ p {
 }
 .section__header {
   font-size: calc((100vw * 1.05) - 100vw);
-  line-height: 100%;
+  /* font-size: 5vw; */
+  /* line-height: 200%; */
   text-align: center;
 }
 .units-list {
