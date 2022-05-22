@@ -33,19 +33,19 @@ span {
     flex-wrap: wrap;
   }
   .navigation {
-    flex: 0 0 50%;
+    flex: 1 1 50%;
   }
   .product-list {
-    flex: 0 0 50%;
+    flex: 1 1 50%;
   }
   .news {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
   }
 }
 
 @media (min-width: 1200px) {
   .container div {
-    flex: 0 1 33.3333%;
+    flex: 1 1 33.3333%;
     align-items: center;
   }
 
