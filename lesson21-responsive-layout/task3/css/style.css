@@ -10,53 +10,58 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .header {
-  text-align: center;
   color: #fff;
   background-image: linear-gradient(60deg, red, orange);
+  text-align: center;
+}
+.main {
+  flex: 1 0 auto;
 }
 
-.main {
-  flex: 1 1 auto;
-  display: flex;
-  width: 100vw;
-}
 .navigation {
-  flex: 1 0 20%;
-  max-width: 40%;
-}
-.navigation,
-.section,
-.news {
   padding: 0.5em;
+  /* flex: 0 1 20%; */
+  width: 20%;
 }
 .nav-list {
   padding: 0;
   list-style-type: none;
+  /* min-width: 100%; */
 }
 .nav-list-item {
-  line-height: 1.75em;
-  margin-bottom: 0.5em;
   background-color: #808080;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  padding: 0 0.5em;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 .nav-list-link {
-  line-height: 2em;
   color: #fff;
   text-decoration: none;
-  padding: 0 0.5em;
 }
+
 .section {
-  flex: 1 0 60%;
+  padding: 0.5em;
+  /* flex: 1 1 60%; */
+  width: 60%;
+
   font-size: 1.25em;
+  line-height: 1.75em;
 }
 .section__header {
-  font-size: 5vw;
+  font-size: calc((100vw * 1.05) - 100vw);
   text-align: center;
 }
 .units-list {
@@ -64,14 +69,16 @@ body {
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
-  font-size: 1.125em;
+  font-size: 125%;
   font-weight: 700;
 }
 .news {
-  flex: 0 1 20%;
+  padding: 0.5em;
+  /* flex: 0 0 20%; */
+  width: 20%;
 }
 .footer {
+  padding: 0.5em;
   background-color: #e5e5e5;
   text-align: center;
-  padding: 0.5em;
 }
