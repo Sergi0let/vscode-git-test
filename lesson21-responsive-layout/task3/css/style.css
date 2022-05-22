@@ -66,7 +66,6 @@ p {
   font-size: calc((100vw * 1.05) - 100vw);
   /* font-size: 5vw; */
   text-align: center;
-  margin-bottom: 0;
 }
 .units-list {
 }
