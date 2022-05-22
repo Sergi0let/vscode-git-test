@@ -46,6 +46,7 @@ span {
 @media (min-width: 1200px) {
   .container div {
     flex: 0 1 33.3333%;
+    align-items: center;
   }
 
   .container {
