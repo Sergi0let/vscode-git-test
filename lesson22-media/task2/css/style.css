@@ -47,4 +47,7 @@ span {
   .container div {
     flex: 0 1 33.333%;
   }
-} ;
+  .container {
+    text-align: center;
+  }
+}
