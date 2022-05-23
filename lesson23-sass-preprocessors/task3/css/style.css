@@ -12,7 +12,7 @@
   line-height: 3em;
   color: white;
   cursor: pointer;
-  padding-right: 8px;
+  margin: 0 8px;
   list-style-type: none;
 }
 .menu__item:hover {
