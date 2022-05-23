@@ -63,7 +63,7 @@ p {
 }
 
 .section p {
-  padding-top: 1.25em;
+  padding-top: 1em;
 }
 .section__header {
   font-size: calc((100vw * 1.05) - 100vw);
