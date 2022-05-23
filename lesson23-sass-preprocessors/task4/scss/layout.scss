@@ -1,0 +1,47 @@
+@import 'variables.scss';
+
+.container {
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: column;
+  div {
+    min-height: 200px;
+    display: flex;
+    @include for-large {
+      flex: 1 1 33.333%;
+      text-align: center;
+    }
+  }
+  span {
+    margin: $unit;
+    background-color: $main-color;
+    border-radius: $border-radius;
+    margin: auto;
+    padding: $unit;
+  }
+  @include for-medium {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @include for-large {
+    text-align: center;
+  }
+}
+.navigation {
+  background-color: $color-orange;
+  @include for-medium {
+    flex: 1 1 50%;
+  }
+}
+.product-list {
+  background-color: $color-green;
+  @include for-medium {
+    flex: 1 1 50%;
+  }
+}
+.news {
+  background-color: $color-blue;
+  @include for-medium {
+    flex: 1 1 100%;
+  }
+}

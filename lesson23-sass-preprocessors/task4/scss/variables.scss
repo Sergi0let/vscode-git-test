@@ -1,0 +1,21 @@
+$color-orange: #ff7f50;
+$color-green: #006400;
+$color-blue: #0ff;
+$unit: 8px;
+$border-radius: 4px;
+$main-color: #faebd7;
+
+$md: 600px;
+$ld: 1200px;
+
+@mixin for-medium {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $ld) {
+    @content;
+  }
+}
