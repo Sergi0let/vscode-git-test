@@ -26,6 +26,7 @@ html {
 .main {
 }
 .navigation {
+  padding: 0.5em;
 }
 .nav-list {
   width: 20%;
