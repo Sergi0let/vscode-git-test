@@ -1,31 +1,20 @@
 $sm: 600px;
 $md: 900px;
-$lg: 1199px;
+$lg: 1200px;
 
-@mixin for-extra-small {
-  @media screen and (max-width: $sm-1) {
-    @content;
-  }
-}
-
-@mixin for-medium-up {
+@mixin for-medium {
   @media screen and (min-width: $sm) {
     @content;
   }
 }
 
-@mixin for-medium-down {
+@mixin for-medium-plus {
   @media screen and (min-width: $md) {
     @content;
   }
 }
 @mixin for-large {
   @media screen and (min-width: $lg) {
-    @content;
-  }
-}
-@mixin for-large-ap {
-  @media screen and (max-width: $lg) {
     @content;
   }
 }
