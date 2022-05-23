@@ -8,7 +8,14 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   margin: auto;
+}
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
+  }
 }
 
 .square {

@@ -29,3 +29,9 @@ $lg: 1199px;
     @content;
   }
 }
+
+@mixin position {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}

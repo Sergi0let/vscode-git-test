@@ -10,7 +10,12 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   margin: auto;
+  @include position {
+    flex-direction: row;
+  }
 }
 .square {
   width: 100px;
