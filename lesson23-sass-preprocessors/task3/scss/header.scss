@@ -3,18 +3,17 @@
 }
 .menu {
   display: flex;
-
+  padding-left: 3em;
   text-transform: uppercase;
   margin: 0;
 
   // .menu__item
 
   &__item {
-    padding-right: 8px;
     line-height: 3em;
     color: white;
     cursor: pointer;
-
+    padding-right: 8px;
     list-style-type: none;
     &:hover {
       background-color: #9acd32;
