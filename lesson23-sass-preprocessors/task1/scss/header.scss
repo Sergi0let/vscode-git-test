@@ -1,0 +1,37 @@
+@import 'variables.scss';
+
+.header {
+  background-color: $color-grey;
+  // .header__navigation
+
+  &__navigation {
+  }
+}
+.nav-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: $unit * 7;
+  display: flex;
+  align-items: center;
+
+  // .nav-list__item
+
+  &__item {
+    border-radius: $border-radius;
+    color: $text-color-secondary;
+    padding: $unit;
+    margin-left: $unit;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: $color-secondary;
+    &:hover {
+      opacity: 0.7;
+    }
+    // .nav-list__item_selected
+
+    &_selected {
+      background-color: $color-primary;
+    }
+  }
+}
