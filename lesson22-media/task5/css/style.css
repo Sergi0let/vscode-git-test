@@ -133,4 +133,7 @@ p {
     height: auto;
     margin: 0 auto;
   }
+  .footer {
+    padding: 0.3em;
+  }
 }
