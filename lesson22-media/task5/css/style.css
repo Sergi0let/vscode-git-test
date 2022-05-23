@@ -61,6 +61,10 @@ p {
   width: 60%;
   font-size: 1.25em;
 }
+
+.section p {
+  padding-top: 1.25em;
+}
 .section__header {
   font-size: calc((100vw * 1.05) - 100vw);
   /* font-size: 5vw; */
@@ -88,6 +92,7 @@ p {
 }
 
 .section__image img {
+  /* display: block; */
   max-width: 100%;
   height: auto;
   margin: 0 auto;
